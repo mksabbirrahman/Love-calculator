@@ -8,7 +8,7 @@ function calculateLove() {
   }
 
   const sabbirNames = ["sabbir"];
-  const elmyraNames = ["Nusaiba Binte Arif", "Nusaiba", "mahmuda", "elmyra"];
+  const elmyraNames = ["nusaiba binte arif", "nusaiba", "mahmuda", "elmyra"];
 
   let isTrueLove =
     (sabbirNames.includes(name1) && elmyraNames.includes(name2)) ||
