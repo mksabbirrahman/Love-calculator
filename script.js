@@ -8,7 +8,7 @@ function calculateLove() {
   }
 
   const sabbirNames = ["sabbir"];
-  const elmyraNames = ["mahmuda jannat", "jannat", "mahmuda", "elmyra"];
+  const elmyraNames = ["Nusaiba Binte Arif", "Nusaiba", "mahmuda", "elmyra"];
 
   let isTrueLove =
     (sabbirNames.includes(name1) && elmyraNames.includes(name2)) ||
@@ -17,7 +17,7 @@ function calculateLove() {
   let resultText = "";
 
   if (isTrueLove) {
-    resultText = "Sabbir ❤️ Elmyra = 100% Love 💯✨";
+    resultText = "Sabbir ❤️ Nusaiba = 100% Love 💯✨";
   } else {
     let lowScore = Math.floor(Math.random() * 50); // 0–49%
     resultText = "Love Score = " + lowScore + "% 💔";
